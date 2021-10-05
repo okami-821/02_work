@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+html {
+  font-family: Shuei Yokobuto Min M;
+  color: #333;
+}
+
+a:hover img {
+  opacity: 0.7;
+  transition: 0.6s;
+}
+
+body {
+  animation: fadeIn 2s ease 1 normal;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.column_bg {
+/*  background-color: #F8F5EB;
+  background-image: url(../img/container_bg.jpg);
+  background-repeat: repeat-y;
+  background-attachment: fixed;*/
+  background: #F8F5EB url(../img/container_bg.jpg) repeat-y fixed;
+}
+.container {
+  max-width: 900px;
+  margin: auto
+}
+.header {
+  max-width: 93%;
+  margin: 100px auto
+}
+.introduction {
+  max-width: 575px;
+  margin: 50px auto;
+}
+.introduction p {
+  font-size: 2em;
+  text-align: left;
+  line-height: 2;
+  letter-spacing: 1.26px;
+}
+
+.content {
+  background-color: white;
+  padding: 100px 0
+}
+.content figcaption {
+  font-size: 1.4em;
+  margin-top: 5px;
+}
+.content-wrap {
+  max-width: 500px;
+  margin: auto
+}
+
+.column__read-box {
+  width: 80%;
+  margin: auto;
+}
+.column__read {
+  font-size: 1.6em;
+  line-height: 2;
+  letter-spacing: 1.8px;
+}
+.column__read:first-letter {
+  font-size: 3em;
+  color: white;
+  text-shadow: black 1px 1px 0px, black -1px 1px 0px, black -1px -1px 0px, black 1px -1px 0px, black 1px 0px 0px, black 0px 1px 0px, black -1px 0px 0px, black 0px -1px 0px;
+}
+.column__read .lineheight {
+  line-height: 1.1;
+}
+
+
+.column_img {
+  margin: 50px auto
+}
+.column__txt {
+  margin: 30px auto;
+  font-size: 1.6em;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+
+.column__sns-box {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 200px;
+  padding-left: 0;
+
+}
+.column__sns-box li {
+  width: 100px;
+  margin: 0 10px;
+}
+
+.fadeinElem {
+  transition: all 400ms ease-in;
+  }
+.fadeinElem.toUp {
+  transform: translateY(10px);
+  opacity: 0;
+}
+.fadeinElem.show {
+    transform: translate(0);
+    opacity: 1;
+}
+
+@media screen and (min-width: 680px) {
+}
+@media screen and (max-width: 680px) {
+  br {
+    display: none;
+  }
+
+  .introduction {
+    max-width: 100%;
+  }
+  .introduction p {
+    font-size: 1.8em;
+    line-height: 1.8;
+    letter-spacing: 1.2px;
+  }
+  .introduction p {
+    padding: 0 20px;
+  }
+  .content-wrap {
+    max-width: 100%;
+  }
+  .column__txt {
+    max-width: 90%;
+  }
+  .column__sns-box li {
+    width: 50px;
+  }
+}
+
+
+
+
+
+
