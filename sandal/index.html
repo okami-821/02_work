@@ -33,10 +33,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Zen+Kaku+Gothic+Antique&family=Zen+Kurenaido&display=swap"
     rel="stylesheet">
-
-  <!-- <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> -->
 </head>
 
 <body class="zen-kaku-gothic-antique-regular">
@@ -350,12 +346,12 @@
       <div class="footer__flex">
         <ul>
           <li>スタッフ</li>
-          <li><span>モデルスタイリング：</span>佐伯敦子</li>
+          <li><span>スタイリング：</span>佐伯敦子</li>
           <li><span>モデル：</span>小野りりあん</li>
           <li><span>モデル写真：</span>尾嶝太</li>
           <li><span>ヘアメイク：</span>福沢京子</li>
-          <li><span>商品写真</span>安井智洋、星佳代子</li>
-          <li><span>取材</span>武田景</li>
+          <li><span>商品写真：</span>安井智洋、星佳代子</li>
+          <li><span>取材：</span>武田景</li>
         </ul>
         <ul>
           <li><a href="#"></a>特定商取引法・古物営業法に基づく表記</li>
@@ -370,112 +366,10 @@
           <li><a class="#"><i class="fa-brands fa-line"></i></a></li>
         </ul>
       </div>
+      <small>©2024 HOUSE OF LOTUS</small>
     </div>
   </footer>
-  <!-- <footer>
-    <div id="footer" class="hiragino">
-    </div>
-  </footer> -->
   <script src="../js/common.js"></script>
-  <!-- <script type="text/babel">
-    'use strict';
-
-    {
-      const Box1 = (props) => {
-        console.log(props);
-        return (
-          <li><span>{props.name}</span>{props.staff}</li>
-        );
-      };
-
-      const Box2 = (props) => {
-        console.log(props);
-        return (
-          <li><a href={props.url}>{props.company}</a></li>
-        );
-      };
-
-      const Box3 = (props) => {
-        console.log(props);
-        return (
-          <li><a href={props.url2}><i className={props.icon}></i></a></li>
-        );
-      };
-
-      const App = () => {
-        const boxs1 = [
-          { id: 0, name: 'スタッフ', staff: '' },
-          { id: 1, name: 'モデルスタイリング；', staff: '佐伯敦子' },
-          { id: 2, name: 'モデル：', staff: '小野りりあん' },
-          { id: 3, name: 'モデル写真', staff: '尾嶝太' },
-          { id: 4, name: 'ヘアメイク', staff: '福沢京子' },
-          { id: 5, name: '商品写真', staff: '安井智洋、星佳代子' },
-          { id: 6, name: '取材', staff: '武田景' },
-        ];
-        const boxs1Items = boxs1.map((box) => {
-          return (
-            <Box1
-              key={box.id}
-              name={box.name}
-              staff={box.staff}
-            />
-          );
-        });
-
-        const boxs2 = [
-          { id: 0, url: '#', company: '特定商取引法・古物営業法に基づく表記' },
-          { id: 1, url: '#', company: 'プライバシーポリシー' },
-          { id: 2, url: '#', company: '利用規約' },
-          { id: 3, url: '#', company: '運営会社について' },
-        ];
-        const boxs2Items = boxs2.map((box) => {
-          return (
-            <Box2
-              key={box.id}
-              url={box.url}
-              company={box.company}
-            />
-          );
-        });
-
-        const boxs3 = [
-          { id: 0, url2: '#', icon: 'fa-brands fa-facebook' },
-          { id: 1, url2: '#', icon: 'fa-brands fa-square-x-twitter' },
-          { id: 2, url2: '#', icon: 'fa-brands fa-instagram' },
-          { id: 3, url2: '#', icon: 'fa-brands fa-line' },
-        ];
-        const boxs3Items = boxs3.map((box) => {
-          return (
-            <Box3
-              key={box.id}
-              url2={box.url}
-              icon={box.icon}
-            />
-          );
-        });
-
-        return (
-          <>
-            <div className="footer__flex">
-              <ul>
-                {boxs1Items}
-              </ul>
-              <ul>
-                {boxs2Items}
-              </ul>
-              <ul>
-                {boxs3Items}
-              </ul>
-            </div>
-          </>
-        );
-      }
-
-      const footer = document.querySelector('#footer');
-      const root = ReactDOM.createRoot(footer);
-      root.render(<App />);
-    }
-  </script> -->
 </body>
 
 </html>
